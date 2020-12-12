@@ -1,3 +1,26 @@
+html{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.App img{
+  width: 200px;
+  border-radius: 100px;
+  border: 1px solid grey
+}
+button{
+  background: blue;
+  padding: 10px 40px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+}
+.bio, .fullname, .profession{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
 .App {
   text-align: center;
 }
